@@ -71,7 +71,7 @@ const Add = props => {
           <Col xs='12' md='12'>
             <SelectOption
               error={reviewFormErrors['isRecommended']}
-              label={'Will you recommend this product?'}
+              label={'Will you recommend this Maid?'}
               name={'isRecommended'}
               value={reviewFormData.isRecommended}
               options={recommedableSelect}

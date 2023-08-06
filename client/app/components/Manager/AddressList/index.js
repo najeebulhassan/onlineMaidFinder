@@ -29,7 +29,7 @@ const AddressList = props => {
               {address.isDefault ? (
                 <div className='d-flex align-items-center justify-content-between mb-2'>
                   <h4 className='mb-0 mr-2 one-line-ellipsis'>
-                    Default Delivery Address
+                    Default Home Address
                   </h4>
                   <CheckIcon className='text-green' />
                 </div>

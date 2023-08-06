@@ -84,7 +84,7 @@ const MerchantList = props => {
                   className='w-100 mt-3'
                   size='sm'
                   text={
-                    merchant.isActive ? 'Disable Merchant' : 'Enable Merchant'
+                    merchant.isActive ? 'Disable Maid' : 'Enable Maid'
                   }
                   popover={true}
                   popoverTitle={`Are you sure you want to ${

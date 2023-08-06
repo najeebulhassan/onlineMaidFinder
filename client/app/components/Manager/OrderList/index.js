@@ -51,17 +51,17 @@ const OrderList = props => {
                     )}
                   </div>
                   <div className='mb-1'>
-                    <span>Order #</span>
+                    <span>CNIC #</span>
                     <span className='order-label'>{` ${order._id}`}</span>
                   </div>
                   <div className='mb-1'>
-                    <span>Ordered on</span>
+                    <span>Booked on</span>
                     <span className='order-label'>{` ${formatDate(
                       order.created
                     )}`}</span>
                   </div>
                   <div className='mb-1'>
-                    <span>Order Total</span>
+                    <span>Total</span>
                     <span className='order-label'>{` $${
                       order?.totalWithTax ? order?.totalWithTax : 0
                     }`}</span>

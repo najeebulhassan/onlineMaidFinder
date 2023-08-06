@@ -43,9 +43,9 @@ const AddProduct = props => {
             <Input
               type={'text'}
               error={formErrors['sku']}
-              label={'Sku'}
+              label={'Service #'}
               name={'sku'}
-              placeholder={'Product Sku'}
+              placeholder={'Enter Unique Service Number...'}
               value={productFormData.sku}
               onInputChange={(name, value) => {
                 productChange(name, value);
@@ -58,7 +58,7 @@ const AddProduct = props => {
               error={formErrors['name']}
               label={'Name'}
               name={'name'}
-              placeholder={'Product Name'}
+              placeholder={'Service Name'}
               value={productFormData.name}
               onInputChange={(name, value) => {
                 productChange(name, value);
@@ -71,7 +71,7 @@ const AddProduct = props => {
               error={formErrors['description']}
               label={'Description'}
               name={'description'}
-              placeholder={'Product Description'}
+              placeholder={'Service Description'}
               value={productFormData.description}
               onInputChange={(name, value) => {
                 productChange(name, value);
@@ -82,10 +82,10 @@ const AddProduct = props => {
             <Input
               type={'number'}
               error={formErrors['quantity']}
-              label={'Quantity'}
+              label={'Hours'}
               name={'quantity'}
               decimals={false}
-              placeholder={'Product Quantity'}
+              placeholder={'No: of Hrs you want to work...'}
               value={productFormData.quantity}
               onInputChange={(name, value) => {
                 productChange(name, value);
@@ -96,17 +96,17 @@ const AddProduct = props => {
             <Input
               type={'number'}
               error={formErrors['price']}
-              label={'Price'}
+              label={'Rate / Hour'}
               name={'price'}
               min={1}
-              placeholder={'Product Price'}
+              placeholder={'Service Price/Hour'}
               value={productFormData.price}
               onInputChange={(name, value) => {
                 productChange(name, value);
               }}
             />
           </Col>
-          <Col xs='12' md='12'>
+          {/* <Col xs='12' md='12'>
             <SelectOption
               error={formErrors['taxable']}
               label={'Taxable'}
@@ -117,7 +117,7 @@ const AddProduct = props => {
                 productChange('taxable', value);
               }}
             />
-          </Col>
+          </Col> */}
           <Col xs='12' md='12'>
             <SelectOption
               disabled={user.role === ROLES.Merchant}
@@ -158,7 +158,7 @@ const AddProduct = props => {
         </Row>
         <hr />
         <div className='add-product-actions'>
-          <Button type='submit' text='Add Product' />
+          <Button type='submit' text='Add Service' />
         </div>
       </form>
     </div>

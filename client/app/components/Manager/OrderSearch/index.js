@@ -13,7 +13,7 @@ const OrderSearch = props => {
     <div className='mb-3'>
       <SearchBar
         name='order'
-        placeholder='Type the complete order ID'
+        placeholder='Search By CNIC'
         btnText='Search'
         onSearch={props.onSearch}
         onBlur={props.onBlur}

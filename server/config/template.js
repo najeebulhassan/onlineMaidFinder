@@ -79,7 +79,7 @@ exports.contactEmail = () => {
 
 exports.merchantApplicationEmail = () => {
   const message = {
-    subject: 'Sell on MERN Store',
+    subject: 'Sell your services with Online Maid Finder',
     text: `We received your request! Our team will contact you soon. \n\n`
   };
 
@@ -88,7 +88,7 @@ exports.merchantApplicationEmail = () => {
 
 exports.merchantDeactivateAccount = () => {
   const message = {
-    subject: 'Merchant account on MERN Store',
+    subject: 'Maid Account on Online Maid Finder',
     text:
       `Your merchant account has been disabled. \n\n` +
       `Please contact admin to request access again.`

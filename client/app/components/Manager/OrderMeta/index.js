@@ -22,19 +22,19 @@ const OrderMeta = props => {
         .length < 1;
 
     if (isNotDelivered) {
-      return <Button size='sm' text='Cancel Order' onClick={cancelOrder} />;
+      return <Button size='sm' text='Cancel Booking' onClick={cancelOrder} />;
     }
   };
 
   return (
     <div className='order-meta'>
       <div className='d-flex align-items-center justify-content-between mb-3 title'>
-        <h2 className='mb-0'>Order Details</h2>
+        <h2 className='mb-0'>Booking Details</h2>
         <Button
           variant='link'
           icon={<ArrowBackIcon />}
           size='sm'
-          text='Back to orders'
+          text='Back to bookings'
           onClick={onBack}
         ></Button>
       </div>
@@ -43,7 +43,7 @@ const OrderMeta = props => {
         <Col xs='12' md='8'>
           <Row>
             <Col xs='4'>
-              <p className='one-line-ellipsis'>Order ID</p>
+              <p className='one-line-ellipsis'>CNIC</p>
             </Col>
             <Col xs='8'>
               <span className='order-label one-line-ellipsis'>{` ${order._id}`}</span>
@@ -51,7 +51,7 @@ const OrderMeta = props => {
           </Row>
           <Row>
             <Col xs='4'>
-              <p className='one-line-ellipsis'>Order Date</p>
+              <p className='one-line-ellipsis'>Booking Date</p>
             </Col>
             <Col xs='8'>
               <span className='order-label one-line-ellipsis'>{` ${formatDate(

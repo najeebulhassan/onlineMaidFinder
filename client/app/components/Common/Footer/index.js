@@ -14,7 +14,7 @@ import Newsletter from '../../../containers/Newsletter';
 const Footer = () => {
   const infoLinks = [
     { id: 0, name: 'Contact Us', to: '/contact' },
-    { id: 1, name: 'Sell With Us', to: '/sell' },
+    { id: 1, name: 'Register as a Maid', to: '/sell' },
     { id: 2, name: 'Shipping', to: '/shipping' }
   ];
 
@@ -49,25 +49,25 @@ const Footer = () => {
               <ul>{footerLinks}</ul>
             </div>
           </div>
-          <div className='footer-block'>
+          {/* <div className='footer-block'>
             <div className='block-title'>
               <h3 className='text-uppercase'>Links</h3>
             </div>
             <div className='block-content'>
               <ul>{footerLinks}</ul>
             </div>
-          </div>
-          <div className='footer-block'>
+          </div> */}
+          {/* <div className='footer-block'>
             <div className='block-title'>
               <h3 className='text-uppercase'>Newsletter</h3>
               <Newsletter />
             </div>
-          </div>
+          </div> */}
         </div>
         <div className='footer-copyright'>
-          <span>© {new Date().getFullYear()} MERN Store</span>
+          <span>© {new Date().getFullYear()} Maid Finder</span>
         </div>
-        <ul className='footer-social-item'>
+        {/* <ul className='footer-social-item'>
           <li>
             <a href='/#facebook' rel='noreferrer noopener' target='_blank'>
               <span className='facebook-icon' />
@@ -88,7 +88,7 @@ const Footer = () => {
               <span className='twitter-icon' />
             </a>
           </li>
-        </ul>
+        </ul> */}
       </Container>
     </footer>
   );

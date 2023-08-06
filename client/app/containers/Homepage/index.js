@@ -19,7 +19,7 @@ class Homepage extends React.PureComponent {
     return (
       <div className='homepage'>
         <Row className='flex-row'>
-          <Col xs='12' lg='6' className='order-lg-2 mb-3 px-3 px-md-2'>
+          {/* <Col xs='12' lg='12' className='order-lg-1 mb-3 px-3 px-md-2'>
             <div className='home-carousel'>
               <CarouselSlider
                 swipeable={true}
@@ -34,19 +34,19 @@ class Homepage extends React.PureComponent {
                 ))}
               </CarouselSlider>
             </div>
-          </Col>
-          <Col xs='12' lg='3' className='order-lg-1 mb-3 px-3 px-md-2'>
+          </Col> */}
+          <Col xs='12' lg='12' className='order-lg-1 mb-3 px-3 px-md-2'>
             <div className='d-flex flex-column h-100 justify-content-between'>
-              <img src='/images/banners/banner-2.jpg' className='mb-3' />
-              <img src='/images/banners/banner-5.jpg' />
+              <img src='/images/banners/banner-1.png' className='mb-3' />
+              {/* <img src='/images/banners/banner-5.jpg' /> */}
             </div>
           </Col>
-          <Col xs='12' lg='3' className='order-lg-3 mb-3 px-3 px-md-2'>
+          {/* <Col xs='12' lg='3' className='order-lg-3 mb-3 px-3 px-md-2'>
             <div className='d-flex flex-column h-100 justify-content-between'>
               <img src='/images/banners/banner-2.jpg' className='mb-3' />
               <img src='/images/banners/banner-6.jpg' />
             </div>
-          </Col>
+          </Col> */}
         </Row>
       </div>
     );

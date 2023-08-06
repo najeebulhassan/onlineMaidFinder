@@ -128,7 +128,7 @@ const EditProduct = props => {
               }}
             />
           </Col>
-          <Col xs='12' md='12'>
+          {/* <Col xs='12' md='12'>
             <SelectOption
               error={formErrors['taxable']}
               label={'Taxable'}
@@ -140,7 +140,7 @@ const EditProduct = props => {
                 productChange('taxable', value.value);
               }}
             />
-          </Col>
+          </Col> */}
           {user.role === ROLES.Admin && (
             <Col xs='12' md='12'>
               <SelectOption

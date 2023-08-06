@@ -56,12 +56,12 @@
       "type": "image/png"
     }
   ],
-  "name": "MERN Store",
-  "short_name": "MERNStore",
+  "name": "Maid Finder",
+  "short_name": "MaidFinder",
   "orientation": "portrait",
   "display": "standalone",
   "start_url": ".",
-  "description": "MERN Store!",
+  "description": "Online Maid Finder!",
   "background_color": "#fff",
   "theme_color": "#4a68aa"
 }

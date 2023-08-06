@@ -25,7 +25,7 @@ exports.sendEmail = async (email, type, host, data) => {
     const message = prepareTemplate(type, host, data);
 
     const config = {
-      from: `MERN Store! <${sender}>`,
+      from: `Online Maid Finder! <${sender}>`,
       to: email,
       subject: message.subject,
       text: message.text
@@ -33,6 +33,7 @@ exports.sendEmail = async (email, type, host, data) => {
 
     return await mailgun.messages().send(config);
   } catch (error) {
+    console.log("error", error);
     return error;
   }
 };

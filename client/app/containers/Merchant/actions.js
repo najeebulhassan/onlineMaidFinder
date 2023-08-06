@@ -65,7 +65,7 @@ export const setMerchantSubmitting = value => {
 export const addMerchant = (isBack = false) => {
   return async (dispatch, getState) => {
     try {
-      const phoneno = /^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$/;
+      const phoneno = /^\(?([0-9]{3})\)?[-. ]?([0-9]{4})[-. ]?([0-9]{4})$/;
 
       const rules = {
         name: 'required',

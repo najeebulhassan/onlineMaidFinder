@@ -10,12 +10,12 @@
     { "to": "/address", "name": "Address", "prefix": "/dashboard" },
     { "to": "/product", "name": "Products", "prefix": "/dashboard" },
     { "to": "/category", "name": "Categories", "prefix": "/dashboard" },
-    { "to": "/brand", "name": "Brand", "prefix": "/dashboard" },
+    { "to": "/brand", "name": "Services", "prefix": "/dashboard" },
     { "to": "/users", "name": "Users", "prefix": "/dashboard" },
-    { "to": "/merchant", "name": "Merchants", "prefix": "/dashboard" },
+    { "to": "/merchant", "name": "Maid Accounts", "prefix": "/dashboard" },
     { "to": "/orders", "name": "Orders", "prefix": "/dashboard" },
     { "to": "/review", "name": "Reviews", "prefix": "/dashboard" },
-    { "to": "/wishlist", "name": "WishList", "prefix": "/dashboard" },
+    { "to": "/wishlist", "name": "Favourites", "prefix": "/dashboard" },
     { "to": "/support", "name": "Support" }
   ],
   "ROLE MERCHANT": [
@@ -30,8 +30,7 @@
     { "to": "/brand", "name": "Brand", "prefix": "/dashboard" },
     { "to": "/product", "name": "Products", "prefix": "/dashboard" },
     { "to": "/orders", "name": "Orders", "prefix": "/dashboard" },
-    { "to": "/wishlist", "name": "WishList", "prefix": "/dashboard" },
-    { "to": "/support", "name": "Support" }
+    { "to": "/wishlist", "name": "Favourites", "prefix": "/dashboard" }
   ],
   "ROLE MEMBER": [
     { "to": "", "name": "Account Details", "prefix": "/dashboard" },
@@ -42,8 +41,8 @@
       "provider": ["Email"]
     },
     { "to": "/address", "name": "Address", "prefix": "/dashboard" },
-    { "to": "/orders", "name": "Orders", "prefix": "/dashboard" },
-    { "to": "/wishlist", "name": "WishList", "prefix": "/dashboard" },
-    { "to": "/support", "name": "Support" }
+    { "to": "/orders", "name": "Bookings", "prefix": "/dashboard" },
+    { "to": "/wishlist", "name": "Favourites", "prefix": "/dashboard" }
+    
   ]
 }

@@ -80,7 +80,7 @@ const OrderItems = props => {
 
   return (
     <div className='order-items pt-3'>
-      <h2>Order Items</h2>
+      <h2>Order Maids</h2>
       <Row>
         {order.products.map((item, index) => (
           <Col xs='12' key={index} className='item'>
@@ -109,7 +109,7 @@ const OrderItems = props => {
                           </Link>
                           <div className='d-flex align-items-center justify-content-between'>
                             <span className='price'>
-                              ${item.purchasePrice || item.product.price}
+                              ${item.purchasePrice || item.product.price} / hr
                             </span>
                           </div>
                         </>
@@ -142,7 +142,7 @@ const OrderItems = props => {
 
                   <div className='text-center'>
                     <p className='order-label'>{` ${item.quantity}`}</p>
-                    <p>Quantity</p>
+                    <p>Hrs</p>
                   </div>
 
                   <div className='text-center'>
