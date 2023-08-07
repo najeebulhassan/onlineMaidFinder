@@ -41,6 +41,12 @@ class Homepage extends React.PureComponent {
               {/* <img src='/images/banners/banner-5.jpg' /> */}
             </div>
           </Col>
+          <Col xs='12' lg='12' className='order-lg-1 mb-3 px-3 px-md-2'>
+            <div className='d-flex flex-column h-100 justify-content-between'>
+              <h2>About Us - Your Perfect Maid Finder</h2>
+              <p>Welcome to Online Maid Finder, your one-stop solution for simplifying the process of finding reliable domestic help online. We understand that searching for the perfect maid can be overwhelming, but with our user-friendly platform, you can now discover the ideal household assistant with ease.</p>
+            </div>
+          </Col>
           {/* <Col xs='12' lg='3' className='order-lg-3 mb-3 px-3 px-md-2'>
             <div className='d-flex flex-column h-100 justify-content-between'>
               <img src='/images/banners/banner-2.jpg' className='mb-3' />

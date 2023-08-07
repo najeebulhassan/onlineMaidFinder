@@ -45,8 +45,8 @@ email: testclient@mailinator.com, password: 12qw!@QW
 ## How to Run this Application
 
 
-Node Version: 14.17.1
-npm: 6.14.13
+Required Node Version: 14.17.1
+Required npm: 6.14.13
 
 Go into the root folder and run 
 

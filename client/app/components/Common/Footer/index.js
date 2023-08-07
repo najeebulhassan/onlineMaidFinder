@@ -38,15 +38,15 @@ const Footer = () => {
   ));
 
   return (
-    <footer className='footer'>
+    <footer className='footer' style={{ background: "white" }}>
       <Container>
         <div className='footer-content'>
-          <div className='footer-block'>
-            <div className='block-title'>
+          <div className='footer-block' style={{ paddingTop: "0px" }}>
+            {/* <div className='block-title'>
               <h3 className='text-uppercase'>Customer Service</h3>
-            </div>
+            </div> */}
             <div className='block-content'>
-              <ul>{footerLinks}</ul>
+              <ul style={{ display: "flex", justifyContent: "space-between" }}>{footerLinks}</ul>
             </div>
           </div>
           {/* <div className='footer-block'>
@@ -64,9 +64,9 @@ const Footer = () => {
             </div>
           </div> */}
         </div>
-        <div className='footer-copyright'>
+        {/* <div className='footer-copyright'>
           <span>© {new Date().getFullYear()} Maid Finder</span>
-        </div>
+        </div> */}
         {/* <ul className='footer-social-item'>
           <li>
             <a href='/#facebook' rel='noreferrer noopener' target='_blank'>
