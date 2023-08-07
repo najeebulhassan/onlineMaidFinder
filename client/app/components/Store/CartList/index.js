@@ -29,11 +29,10 @@ const CartList = props => {
                   <div className='d-flex align-items-center'>
                     <img
                       className='item-image mr-2'
-                      src={`${
-                        item.imageUrl
+                      src={`${item.imageUrl
                           ? item.imageUrl
                           : '/images/placeholder-image.png'
-                      }`}
+                        }`}
                     />
 
                     <Link
@@ -59,7 +58,7 @@ const CartList = props => {
               </Row>
               <Row className='mb-2 align-items-center'>
                 <Col xs='9'>
-                  <p className='item-label'>price</p>
+                  <p className='item-label'>price /Hr</p>
                 </Col>
                 <Col xs='3' className='text-right'>
                   <p className='value price'>{` $${item?.totalPrice}`}</p>
@@ -67,7 +66,7 @@ const CartList = props => {
               </Row>
               <Row className='mb-2 align-items-center'>
                 <Col xs='9'>
-                  <p className='item-label'>quantity</p>
+                  <p className='item-label'>Hours</p>
                 </Col>
                 <Col xs='3' className='text-right'>
                   <p className='value quantity'>{` ${item.quantity}`}</p>

@@ -20,7 +20,7 @@ const UserRole = props => {
         </Badge>
       ) : user.role === ROLES.Merchant ? (
         <Badge variant='dark' className={className}>
-          Merchant
+          Maid
         </Badge>
       ) : (
         <Badge className={className}>Member</Badge>

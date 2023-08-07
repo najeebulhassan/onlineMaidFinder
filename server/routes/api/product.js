@@ -292,7 +292,7 @@ router.post(
       const foundProduct = await Product.findOne({ sku });
 
       if (foundProduct) {
-        return res.status(400).json({ error: 'This sku is already in use.' });
+        return res.status(400).json({ error: 'This service number is already in use.' });
       }
 
       const { imageUrl, imageKey } = await s3Upload(image);

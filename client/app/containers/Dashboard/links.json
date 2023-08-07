@@ -27,8 +27,8 @@
       "provider": ["Email"]
     },
     { "to": "/address", "name": "Address", "prefix": "/dashboard" },
-    { "to": "/brand", "name": "Brand", "prefix": "/dashboard" },
-    { "to": "/product", "name": "Products", "prefix": "/dashboard" },
+    { "to": "/brand", "name": "Category", "prefix": "/dashboard" },
+    { "to": "/product", "name": "Services", "prefix": "/dashboard" },
     { "to": "/orders", "name": "Orders", "prefix": "/dashboard" },
     { "to": "/wishlist", "name": "Favourites", "prefix": "/dashboard" }
   ],

@@ -107,7 +107,7 @@ class ProductPage extends React.PureComponent {
                       <Input
                         type={'number'}
                         error={shopFormErrors['quantity']}
-                        label={'Quantity'}
+                        label={'Availiable HRS'}
                         name={'quantity'}
                         decimals={false}
                         min={1}
@@ -122,9 +122,9 @@ class ProductPage extends React.PureComponent {
                         }}
                       />
                     </div>
-                    <div className='my-4 item-share'>
+                    {/* <div className='my-4 item-share'>
                       <SocialShare product={product} />
-                    </div>
+                    </div> */}
                     <div className='item-actions'>
                       {itemInCart ? (
                         <Button

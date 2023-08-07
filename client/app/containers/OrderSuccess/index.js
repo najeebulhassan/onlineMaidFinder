@@ -54,10 +54,10 @@ class OrderSuccess extends React.PureComponent {
             <p>A confirmation email will be sent to you shortly.</p>
             <div className='order-success-actions'>
               <Link to='/dashboard/orders' className='btn-link'>
-                Manage Orders
+                Manage Bookings
               </Link>
               <Link to='/shop' className='btn-link shopping-btn'>
-                Continue Shopping
+                Continue Booking
               </Link>
             </div>
           </div>

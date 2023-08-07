@@ -45,7 +45,7 @@ class Edit extends React.PureComponent {
 
     return (
       <SubPage
-        title='Edit Product'
+        title='Edit Service'
         actionTitle='Cancel'
         handleAction={history.goBack}
       >
